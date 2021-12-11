@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+/*Whole Nav Bar*/
+nav{
+    width: 100%;
+    height: 92px;
+    position: fixed;
+    background-color: #002C5F;
+    box-shadow:0 3px 3px rgba(0,0,0,0.2);
+}
+
+.navbox{
+    margin-left: auto;
+    width: 129px;
+    height: 90px;
+    background-color: white;
+    box-sizing: border-box;
+    float: left;
+}
+
+img{
+    padding-left: 11px;
+}
+
+h2{
+    padding-top: 225px;
+    padding-left: 40px;
+    text-shadow: 5px 5px rgba(0,0,0,0.2);
+}
+
+p1 {
+    padding-left: 44px;
+    color: #002C5F;
+    font-family: "Helvetica";
+    font-weight: bold;
+    font-size: 7px;
+}
+
+
+.bar{
+    height: 6px;
+    width: 80%;
+    background-color: white;
+}
+
+.menuOptions{
+    color: white;
+    float: right;
+    padding: 35px 2px;
+    font-family: "Helvetica";
+    font-weight: bold;
+    font-size: 12px;
+ }
+
+.menuIcon{
+    height: 100%;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.menu{
+    position: fixed;
+    top: 60px;
+    right: -150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: #002C5F;
+    min-height: 150px;
+    transition: 0.125s;
+    font-family: "Helvetica";
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: 3px 3px rgba(0,0,0,0.2);
+}
+
+.maincontainer{
+    height: 480px;
+    background-image: url("https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTc4MDQ5MzQ2MTg3NTY4NzQ0/taylorno1jags2ruszkowski.jpg");
+    text-align: center;
+    vertical-align: middle;
+    line-height: 115px;
+    color: white;
+    font-family: "Helvetica";
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+}
+
+.aboutwrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+}
+
+.productwrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+}
+
+.product {
+    height: 380px;
+    width: 400px;
+    color: #002C5F;
+    background-color: #002C5F;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    font-family: "Helvetica";
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+img.toppers{
+    padding-right: 32px;
+}
+
+p.description{
+    color: whitesmoke;
+    text-align: center;
+    left: 17px;
+    position: center;
+    padding-top: 20px;
+    text-indent: each-line;
+    line-height: 23px;
+    text-shadow: 3px 3px rgba(0,0,0,0.2);
+}
+
+p.paragraph{
+    text-align: center;
+    color: whitesmoke;
+    left: 17px;
+    position: center;
+    padding-top: 20px;
+    text-indent: each-line;
+    line-height: 23px;
+    letter-spacing: 2px;
+    margin: 4px;
+    text-shadow: 3px 3px rgba(0,0,0,0.2);
+}
+
+p.signed{
+    color: whitesmoke;
+    left: 17px;
+    position: center;
+    padding-top: 20px;
+    text-indent: each-line;
+    line-height: 11px;
+    text-shadow: 3px 3px rgba(0,0,0,0.2);
+}
+
+body{
+    margin: 0 0 20px;
+}
+.footer{
+    position:absolute;
+    width: 100%;
+    height: 40px;
+    background: #002C5F;
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+p.copyright{
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    text-shadow: 2px 2px rgba(0,0,0,0.2);
+}
+
+@media only screen and (min-width:800px){
+    .menuIcon{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .menuOptions{
+        display: none;
+    }
+}
+
